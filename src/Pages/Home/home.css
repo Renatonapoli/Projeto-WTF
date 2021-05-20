@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-items: center;
+  padding: 18px;
+}
+
+.header img {
+  width: 40%;
+}
+
+.nome-usuario {
+  font-size: 12px;
+}
+
+.titulo-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 5vh;
+}
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  margin-top: 10vh;
+}
+
+.logo-dashboard {
+  display: flex;
+  align-items: center;
+  background-color: #4b9595;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.logo-dashboard:hover {
+  transform: scale(1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.logo-dashboard img {
+  align-items: center;
+  width: 35%;
+}
+
+.logo-dashboard h2 {
+  font-size: 40px;
+}
+.logo-usuarios:hover {
+  transform: scale(1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.logo-usuarios {
+  display: flex;
+  align-items: center;
+  background-color: #4b9595;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.logo-usuarios h2 {
+  font-size: 40px;
+}
+
+.logo-usuarios img {
+  align-items: center;
+  width: 50%;
+}
+
+.logo-usuarios a:hover {
+  color: rgb(39, 69, 238);
+}
+
+.meu-perfil:hover {
+  transform: scale(1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.meu-perfil h2 {
+  font-size: 40px;
+}
+
+.meu-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #4b9595;
+  margin: 10px 250px 10px 250px;
+  margin-top: 10vh;
+  width: 500px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.footer button {
+  border-radius: 20px;
+  padding: 20px;
+  margin: 100px 10px 10px;
+  font-size: 20px;
+  width: 33vh;
+  outline: none;
+  background-color: rgb(80, 255, 197);
+  color: #a020f0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

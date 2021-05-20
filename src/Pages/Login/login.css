@@ -1,0 +1,37 @@
+.login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logo img {
+  width: 85%;
+}
+
+.loginInputEmail input {
+  margin-top: 5vh;
+  border-radius: 20px;
+  padding: 20px;
+  width: 30vw;
+  font-size: 20px;
+  border-color: aquamarine;
+  outline: none;
+}
+
+.loginButton button {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  border-radius: 20px;
+  padding: 20px;
+  width: 33vw;
+  font-size: 20px;
+  outline: none;
+  background-color: aquamarine;
+  color: #a020f0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
