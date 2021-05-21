@@ -12,7 +12,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/Renatonapoli/Projeto_Cadastro_De_Usu-rios>
+$ git clone <https://github.com/Renatonapoli/Projeto-WTF>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd my-app
